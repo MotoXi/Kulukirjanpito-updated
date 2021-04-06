@@ -1,0 +1,81 @@
+.uibutton {
+    background-color: #ccc;
+    color: #000;
+    border: none;
+    outline: none;
+    padding: 0.7em 1.5em;
+    margin: 0.5em;
+    border-radius: 0.2em;
+    box-shadow: rgba(0,0,0, 0.5) 0px 2px 2px;
+    font-weight: bold;
+    opacity: 0.8;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.uibutton:active {
+    box-shadow: rgba(0,0,0, 0.5) 0px 2px 5px;
+    background-color: #ccc;
+}
+
+.uibutton:hover {
+    opacity: 1;
+}
+
+.uibutton--primary {
+    background-color: #05ff58;
+    color: rgb(0, 0, 0);
+
+}
+
+.uibutton--primary:active {
+    background-color: #00eeff;
+}
+
+.uibutton--secondary {
+    background-color: #05ff58;
+    color: #000
+}
+
+.uibutton--third {
+    background-color: rgb(253, 23, 23);
+    color: rgb(0, 0, 0);
+}
+
+.uibutton--third:active {
+    background-color: #c6f300;
+    color: #000;
+}
+
+
+.uibutton--secondary:active {
+    background-color: #00eeff;
+    color: #000;
+}
+
+.uibutton:disabled {
+    background-color: #ccc;
+    color: #999;
+    box-shadow: none;
+}
+
+.uibutton--floating {
+    position: fixed;
+    bottom: 4rem;
+    right: 1rem;
+    border-radius: 50%;
+    font-size: 2.5em;
+    width: 1.5em;
+    height: 1.5em;
+    padding: 0.5em;
+}
+
+.uibutton__container {
+    position: relative;
+}
+
+.uibutton__appcontainer > div {
+    transform: translateZ(0);
+}
