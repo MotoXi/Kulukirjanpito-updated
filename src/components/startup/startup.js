@@ -3,6 +3,8 @@ import Button from '../../shared/uibuttons';
 import firebase from 'firebase/app';
 import { useAuth } from 'reactfire';
 
+/*Startup-komponentti pitää sisällään tervehdysruudun, sen ulkonäön ja napin toiminnallisuudet, 
+mistä päästään kirjautumaan sisään sovellukseen.*/
 
 function Startup(props) {
 
