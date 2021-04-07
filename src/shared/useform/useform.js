@@ -1,6 +1,11 @@
 import { InsertInvitationOutlined } from '@material-ui/icons';
 import { useState } from 'react';
 
+/*UseForm-komponentti on react-hooks-käsittelijä, jonka avulla react pitää
+hallussaan, mitä tietoa lomakkeet itsessään pitävät sisällään, eli 
+tänne tallennetaan käyttäjän lomakkeelle syöttämä tieto. Tässä käytetään 
+hyödyksi useState-hooksia.*/
+
 const useForm = (callback, initialState={}, resetOnSubmit=true) => {
 
         // Esitellään useState-hook, johon käyttäjän lomakkeelle

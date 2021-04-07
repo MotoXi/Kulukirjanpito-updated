@@ -2,7 +2,8 @@ import styles from './edititem.module.scss';
 import ItemForm from '../../components/itemform';
 import {useParams} from 'react-router-dom';
 
-
+/*EditItem-komponenttin avulla voidaan muokata ItemForm komponentin 
+pohjalla/avulla kaikkia lisättyjä merkintöjä eli itemeitä.*/
 
 function EditItem(props) {
 

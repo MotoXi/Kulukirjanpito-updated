@@ -1,5 +1,9 @@
 import './uibuttons.css';
 
+/*UiButtons-komponentti:
+Sisältää kaikkien erilaisten nappien määritteet 
+(useita erilaisia nappeja eri käyttötarkoituksiin, sekä leijuvia nappeja jne).*/
+
 const classNames = classnames => classnames.join(" ");
 
 const Button = ({ className = "", primary, secondary, third, ...props }) => {

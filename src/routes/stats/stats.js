@@ -2,6 +2,11 @@ import styles from './stats.module.scss';
 import { Line, LineChart, XAxis, YAxis, ResponsiveContainer, Label, CartesianGrid, Tooltip, Pie, PieChart, LabelList, Legend, Cell } from 'recharts';
 import randomColor from 'randomcolor';
 
+/*Stats-komponentti:
+Sisältää stats-sivun määritteet ja ulkoasun. Stats-komponentti sisältää 
+piirakkakaavion ja sen toiminnallisuuden, sekä tavallisen aikajanakaavion
+toiminnallisuuksineen, ja muodostaa graafit syötetyn datan(itemeiden) perusteella.*/
+
 function Stats(props) {
 
     const linedata = props.data.map(item => ({ date: new Date (item.paymentDate).getTime(), amount: item.amount }));

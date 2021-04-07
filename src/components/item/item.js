@@ -2,6 +2,10 @@ import styles from './item.module.scss';
 import NavigateNextIcon from '@material-ui/icons/NavigateNext';
 import {Link} from 'react-router-dom';
 
+/*Jokainen kulukirjanpitoon lisätty yksittäinen merkintä on kuvattu komponentilla Item. Merkintöjen lisäykseen käytetään item komponenttia,
+ joka tulostaa haluttavan merkinnän halutulla tavalla haluttuun paikkaan. Item-komponentissa määritetään, mitä kaikkia asioita kulukirjanpidossa
+ halutaan lisätä merkinnän yhteydessä (kuten maksupäivä,, eräpäivä, summa, maksunsaaja yms)*/
+
 function Item(props) {
 
     const locale = "fi-FI";

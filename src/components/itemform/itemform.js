@@ -4,6 +4,10 @@ import useForm from '../../shared/useform';
 import {useHistory} from 'react-router-dom';
 import {v4 as uuidv4} from 'uuid';
 
+/*ItemForm-komponentti on komponentti, joka pitää sisällään lomake-elementit.
+Eli millaisia asioita lomake pitää sisällään, ja millaisia merkintöjä sivulle 
+voidaan lisätä ja millaisia tietoja lomake käsittelee. ItemFormissa käsitellään UseFormin kautta syötettyjä tietoja */
+
 function ItemForm(props) {
     
     const history = useHistory();
