@@ -2,7 +2,11 @@ import styles from './settings.module.scss';
 import Button from '../../shared/uibuttons';
 import { useUser, useAuth } from 'reactfire';
 
-
+/*Settings-komponentti pitää sisällään settings-sivun määritteet. 
+Settings-komponentti määrittää millä tunnuksillä on kirjauduttu sisään,
+sekä mnahdollisuuden kirjautua ulos tai vaihtaa käyttäjää.
+Millaisia erilaisia kulutyyppejä voi olla käytössä,
+sekä kulutyyppien lisääminen.*/
 
 function Settings(props) {
 
